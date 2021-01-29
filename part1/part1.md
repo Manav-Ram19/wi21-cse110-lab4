@@ -78,3 +78,6 @@
 
 17. `'How are you?'`  
     Reason: `2==true` would return false, because the `true` would get converted into the int `1`, which gives `2==1`. This is false, so the interpreter moves to the else-if condition. Here, the `2` gets converted into the boolean `true`. Since, the condition is `true` the code `console.log('How are you?');` is run, and the else condition is skipped.  
+
+18. In part1-question18.js  
+19. 
