@@ -37,3 +37,14 @@
 
 12. `[0,0,0]` (ignoring the errors caused by the previous lines)  
     Reason: This is because `finalPrice` is a `const` variable and during its declaration it was assigned the value 0. So, when line 6 is called (during each iteration of the for loop), the value of `finalPrice` doesn't change. This is why, the value 0 will be pushed into `discounted` 3 times.
+
+13. a. student.name  
+    b. student["Grad Year"]
+    c. student.greeting()
+    d. student["Favorite Professor"].name
+    e. student.courseLoad[0]
+
+14. a. `'32'`  
+      Reason: The `2` gets converted into a string, and we get `'3' + '2'`. The string gets concatenated and we get `32`.
+    b. 1
+      Reason: The `3` gets converted into an int, and we get `3-2`. This results in `1`.
