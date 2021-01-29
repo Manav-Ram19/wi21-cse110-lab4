@@ -45,7 +45,20 @@
     e. student.courseLoad[0]  
 
 14. a. `'32'`  
-      Reason: The `2` gets converted into a string, and we get `'3' + '2'`. The string gets concatenated and we get `32`.  
-    b. 1  
-      Reason: The `3` gets converted into an int, and we get `3-2`. This results in `1`.  
-    c.   
+      Reason: The `2` gets converted into a string `'2'`, and we get `'3' + '2'`. The string gets concatenated and we get `32`.  
+    b. `1`  
+      Reason: The `3` gets converted into an int `3`, and we get `3-2`. This results in `1`.  
+    c. `3`  
+      Reason: The `null` gets converted into a `0`, and we get `3+0`. This results in `3`.  
+    d. `'3null'`  
+      Reason: The null gets converted into the string `'null'`, and we get `'3'+'null'`. The string gets concatenated and we get `'3null'`.  
+    e. `4`  
+      Reason: The true gets converted into the int `1`, and we get `1+3`. This results in `4`.  
+    f. `0`  
+      Reason: The true gets converted into the int `0` and the null gets converted into the int `0`. This results in `0+0`, which results in `0`.  
+    g. `'3undefined'`  
+      Reason: The undefined gets converted into the string `'undefined'`, and we get `'3'+'undefined'`. The string gets concatenated and we get `'3undefined'`.  
+    h. `NaN`  
+      Reason: The undefined gets converted into `NaN` and the `'3'` gets converted into the int `3`. This gives`3+NaN`, which results in `NaN`.  
+
+15. 
