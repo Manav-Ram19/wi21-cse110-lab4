@@ -26,7 +26,7 @@
    Reason: This is because the function iterates through the list `[100, 200, 300]` and it pushes 50% of each value into the list discounted, which gets returned by the function.
 
 9.  At line 11 there will be a runtime exception.  
-   Reason: This is because let variables are only visible within the code blocks they have been defined in. Since i is a let variable defined inside the for loop, it is only visible within the for loop, and it cannot be accessed before or after the for loop. Thus, the interpreter doesn't know what i is in line 11.
+   Reason: This is because `let` variables are only visible within the code blocks they have been defined in. Since `i` is a `let` variable defined inside the for loop, it is only visible within the for loop, and it cannot be accessed before or after the for loop. Thus, the interpreter doesn't know what `i` is in line 11.
 
 10. At line 12 there will be a runtime exception.  
    Reason: This is because consr variables are only visible within the code blocks they have been defined in. Since discountedPrice is a const variable defined inside the for loop, it is only visible within the for loop, and it cannot be accessed before or after the for loop. Thus, the interpreter doesn't know what discountedPrice is in line 12.
