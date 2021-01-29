@@ -79,5 +79,15 @@
 17. `'How are you?'`  
     Reason: `2==true` would return false, because the `true` would get converted into the int `1`, which gives `2==1`. This is false, so the interpreter moves to the else-if condition. Here, the `2` gets converted into the boolean `true`. Since, the condition is `true` the code `console.log('How are you?');` is run, and the else condition is skipped.  
 
-18. In part1-question18.js  
-19. 
+18. In part1-question18.js.  
+
+19. The function returns `[6,8,10]`.  
+    Reason: Since the parameters for the function `modifyArray` are `[1,2,3]` and `doSomething`, the first parameter `array` will be `[1,2,3]` and the second parameter `callback` will be `doSomething`. In the first iteration (i.e when `i=0`), `array[i] = 1`. The function `doSomething` is called with parameters `1` and a function that takes an input `x` and returns `2*x`. In the function `doSomething`, the function which was its second parameter is called with the parameter `1+2`, which returns `2*3`. So, the `doSomething` function returns `6`, and this is pushed into the `newArr` array. Similarly, when `i=1`, the `doSomething` function is called with parameters `2` and a function that takes an input `x` and returns `2*x`, and it returns `8`. Next, when `i=2`, the `doSomething` function is called with parameters `3` and a function that takes an input `x` and returns `2*x`, and it returns `10`. Finally, `i=3`, so `i==array.length`, and the for loop isn't executed anymore. The function `modifyArray` returns the array `newArr` containing `[6,8,10]`.  
+
+20. In part1-question20.js.  
+
+21. Output:  
+    1  
+    4  
+    3  
+    2  
