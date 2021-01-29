@@ -23,7 +23,7 @@
    (It will be the value of the last element of prices after the discount has been applied on it and it has been rounded).  
    Reason: Since the variable `finalPrice` was defined in the same function as line 13, the variable will be visible when it is called in line 13. Thus, there is no error, and instead its value will be printed.
 
-8. `[50,100,150]` (ignoring the errors caused by the previous lines)
+8. `[50,100,150]` (ignoring the errors caused by the previous lines)  
    Reason: This is because the function iterates through the list `[100, 200, 300]` and it pushes 50% of each value into the list discounted, which gets returned by the function.
 
 9.  At line 11 there will be an error.  
@@ -45,7 +45,7 @@
     e. student.courseLoad[0]  
 
 14. a. `'32'`  
-      Reason: The `2` gets converted into a string `'2'`, and we get `'3' + '2'`. The string gets concatenated and we get `32`.  
+      Reason: The `2` gets converted into a string `'2'`, and we get `'3' + '2'`. The string gets concatenated and we get `'32'`.  
     b. `1`  
       Reason: The `3` gets converted into an int `3`, and we get `3-2`. This results in `1`.  
     c. `3`  
