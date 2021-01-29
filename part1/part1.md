@@ -1,4 +1,4 @@
-# Questions 1-14
+# Questions 1-17
 1. `3`  
    Reason: This is because `var` variables ignore code blocks (in this case the for loop), so they are visible throughout the function they have been defined in (unless they are global variables, which would make them visible throughout the code).
 
@@ -61,4 +61,20 @@
     h. `NaN`  
       Reason: The undefined gets converted into `NaN` and the `'3'` gets converted into the int `3`. This gives`3+NaN`, which results in `NaN`.  
 
-15. 
+15. a. `true`  
+      Reason: The `'2'` gets converted into the int `2` which gives, `2>1`. This results in `true`.  
+    b. `false`  
+      Reason: In Lexicographic order, `'2'` comes after `'1'`, so `'2' > '1'`. Thus, `'2' > '12'`. Thus it results in `false`.  
+    c. `true`  
+      Reason: The `'2'` gets converted into the int `2` which gives, `2==2`. This results in `true`.  
+    d. `false`  
+      Reason: The `===` operator is the strict equality operator, so the types of the data being compared aren't converted. As `2` is an Int, and `'2'` is a String, they are not equal according to the `===` operator. This results in `false`.  
+    e. `false`  
+      Reason: The `true` gets converted into the int `1` which gives, `1==2`. This results in `false`.  
+    f. `true`  
+      Reason: The `Boolean(2)` gets converted into the boolean `true` which gives, `true===true`. This results in `true`.  
+
+16. The `==` is more flexible than the `===` operator. The `==` operator would type convert both of the data being compared, and then check equality (or inequality). But, if the data aren't of the same type, then the `===` operator would return `false`, without converting the types. For instance, while comparing the string `'2'` with the int `2`, `2=='2'` would return true, because the `'2'` would be converted into an integer `2`. On the other hand, `2==='2'` would return false.  
+
+17. `'How are you?'`  
+    Reason: `2==true` would return false, because the `true` would get converted into the int `1`, which gives `2==1`. This is false, so the interpreter moves to the else-if condition. Here, the `2` gets converted into the boolean `true`. Since, the condition is `true` the code `console.log('How are you?');` is run, and the else condition is skipped.  
