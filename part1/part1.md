@@ -1,4 +1,4 @@
-# Questions 1-12
+# Questions 1-14
 1. `3`  
    Reason: This is because `var` variables ignore code blocks (in this case the for loop), so they are visible throughout the function they have been defined in (unless they are global variables, which would make them visible throughout the code).
 
