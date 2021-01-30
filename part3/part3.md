@@ -9,3 +9,4 @@ I added the `parseInt()` function into the expression to calculate `result`. I e
 
 <img width="584" alt="Screen Shot 2021-01-29 at 10 50 54 PM" src="https://user-images.githubusercontent.com/60715649/106349677-ae099200-6284-11eb-840e-ac5950f3b227.png">
 
+<img width="631" alt="Screen Shot 2021-01-29 at 10 51 17 PM" src="https://user-images.githubusercontent.com/60715649/106349686-cbd6f700-6284-11eb-9a12-cc788fdd7df7.png">
