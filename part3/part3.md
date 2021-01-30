@@ -16,7 +16,7 @@ I added the `parseInt()` function into the expression to calculate `result`. I e
 1. citylots.json
 2. part2.js
 3. 11.7 MB
-4. 2.26s
+4. 80 milliseconds
 5. Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.96 Safari/537.36
 6. Apache
 7. Tue, 26 Jan 2021 22:14:13 GMT
